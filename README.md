@@ -5,6 +5,19 @@
 - 🌱 Currently learning **Next.js**
 - 📫 Reach me: <kanhouchou@gmail.com>
 
+
+<!--START_SECTION:waka-->
+
+```txt
+Java              21 hrs 53 mins  █████████████░░░░░░░░░░░░   52.40 %
+Markdown          8 hrs 31 mins   █████░░░░░░░░░░░░░░░░░░░░   20.40 %
+YAML              4 hrs 29 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.74 %
+Makefile          1 hr 44 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.16 %
+JSON              1 hr 12 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.89 %
+```
+
+<!--END_SECTION:waka-->
+
 ## Languages & Tools
 
 Below are some of the technologies I work with and enjoy. (Click an icon to open the project/website.)
@@ -40,14 +53,3 @@ Below are some of the technologies I work with and enjoy. (Click an icon to open
 <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a>
 </p>
 
-<!--START_SECTION:waka-->
-
-```txt
-Java              21 hrs 53 mins  █████████████░░░░░░░░░░░░   52.40 %
-Markdown          8 hrs 31 mins   █████░░░░░░░░░░░░░░░░░░░░   20.40 %
-YAML              4 hrs 29 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.74 %
-Makefile          1 hr 44 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.16 %
-JSON              1 hr 12 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.89 %
-```
-
-<!--END_SECTION:waka-->
