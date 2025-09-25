@@ -8,13 +8,36 @@ on:
 
 jobs:
   update-readme:
-    name: Update this repo's README
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: anmol098/waka-readme-stats@master
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci || true
+
+      - name: Run update script
+        env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_PROJECTS: "False"
-          SHOW_LINES_OF_CODE: "True"
-          SHOW_LOC_CHART: "False"
-          LOCALE: "jp"
+        run: node .github/scripts/update-waka.js
+
+      - name: Commit README changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-action"
+          git add README.md || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update waka README" || true
+            git push
+          else
+            echo "No changes to commit"
+          fi
+
+    

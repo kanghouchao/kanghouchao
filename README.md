@@ -8,21 +8,6 @@
 
 <!--START_SECTION:waka-->
 
-```txt
-From: 10 May 2025 - To: 24 September 2025
-
-Total Time: 306 hrs 11 mins
-
-Java                       57 hrs 38 mins  ████▓░░░░░░░░░░░░░░░░░░░░   18.82 %
-Markdown                   55 hrs 51 mins  ████▓░░░░░░░░░░░░░░░░░░░░   18.24 %
-PHP                        45 hrs 58 mins  ███▓░░░░░░░░░░░░░░░░░░░░░   15.02 %
-TypeScript                 31 hrs 3 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.14 %
-HTML                       15 hrs 22 mins  █▒░░░░░░░░░░░░░░░░░░░░░░░   05.02 %
-Docker                     12 hrs 47 mins  █░░░░░░░░░░░░░░░░░░░░░░░░   04.18 %
-JavaScript                 10 hrs 47 mins  █░░░░░░░░░░░░░░░░░░░░░░░░   03.52 %
-Makefile                   7 hrs 53 mins   ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.57 %
-```
-
 <!--END_SECTION:waka-->
 
 ## Languages & Tools
@@ -59,4 +44,22 @@ Below are some of the technologies I work with and enjoy.
 <a href="https://www.vagrantup.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/vagrantup/vagrantup-icon.svg" alt="vagrant" width="40" height="40"/> </a>
 <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a>
 </p>
+
+## WakaTime README Updater
+
+This repository includes a GitHub Action that updates the WakaTime section in this `README.md` daily (and on manual trigger).
+
+Setup:
+- Add a repository secret named `WAKATIME_API_KEY` containing your WakaTime API key.
+- Manually trigger the workflow from the Actions tab or wait for the scheduled run.
+
+Local test:
+
+```bash
+# macOS/zsh
+export WAKATIME_API_KEY=your_api_key_here
+node .github/scripts/update-waka.js
+```
+
+See `.github/README_WAKATIME.md` for more details.
 
