@@ -9,11 +9,18 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Java              21 hrs 53 mins  █████████████░░░░░░░░░░░░   52.40 %
-Markdown          8 hrs 31 mins   █████░░░░░░░░░░░░░░░░░░░░   20.40 %
-YAML              4 hrs 29 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.74 %
-Makefile          1 hr 44 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.16 %
-JSON              1 hr 12 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.89 %
+From: 10 May 2025 - To: 24 September 2025
+
+Total Time: 306 hrs 11 mins
+
+Java                       57 hrs 38 mins  ████▓░░░░░░░░░░░░░░░░░░░░   18.82 %
+Markdown                   55 hrs 51 mins  ████▓░░░░░░░░░░░░░░░░░░░░   18.24 %
+PHP                        45 hrs 58 mins  ███▓░░░░░░░░░░░░░░░░░░░░░   15.02 %
+TypeScript                 31 hrs 3 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.14 %
+HTML                       15 hrs 22 mins  █▒░░░░░░░░░░░░░░░░░░░░░░░   05.02 %
+Docker                     12 hrs 47 mins  █░░░░░░░░░░░░░░░░░░░░░░░░   04.18 %
+JavaScript                 10 hrs 47 mins  █░░░░░░░░░░░░░░░░░░░░░░░░   03.52 %
+Makefile                   7 hrs 53 mins   ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.57 %
 ```
 
 <!--END_SECTION:waka-->
