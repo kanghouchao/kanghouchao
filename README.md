@@ -5,7 +5,7 @@
 - 🌱 Currently learning **Next.js**
 - 📫 Reach me: <kanhouchou@gmail.com>
 
-
+## WakaTime Stats
 <!--START_SECTION:waka-->
 
 <!--END_SECTION:waka-->
@@ -45,21 +45,4 @@ Below are some of the technologies I work with and enjoy.
 <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a>
 </p>
 
-## WakaTime README Updater
-
-This repository includes a GitHub Action that updates the WakaTime section in this `README.md` daily (and on manual trigger).
-
-Setup:
-- Add a repository secret named `WAKATIME_API_KEY` containing your WakaTime API key.
-- Manually trigger the workflow from the Actions tab or wait for the scheduled run.
-
-Local test:
-
-```bash
-# macOS/zsh
-export WAKATIME_API_KEY=your_api_key_here
-node .github/scripts/update-waka.js
-```
-
-See `.github/README_WAKATIME.md` for more details.
 
