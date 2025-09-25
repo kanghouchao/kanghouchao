@@ -1,6 +1,6 @@
 # Hi 👋, I'm Kang Houchao
 
-### A developer
+## A developer
 
 - 🌱 Currently learning **Next.js**
 - 📫 Reach me: <kanhouchou@gmail.com>
@@ -27,7 +27,7 @@ Makefile                   7 hrs 53 mins   ▓░░░░░░░░░░░�
 
 ## Languages & Tools
 
-Below are some of the technologies I work with and enjoy. (Click an icon to open the project/website.)
+Below are some of the technologies I work with and enjoy.
 
 <p align="left">
 <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
