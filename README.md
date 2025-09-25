@@ -41,4 +41,13 @@ Below are some of the technologies I work with and enjoy. (Click an icon to open
 </p>
 
 <!--START_SECTION:waka-->
+
+```txt
+Java              21 hrs 53 mins  █████████████░░░░░░░░░░░░   52.40 %
+Markdown          8 hrs 31 mins   █████░░░░░░░░░░░░░░░░░░░░   20.40 %
+YAML              4 hrs 29 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.74 %
+Makefile          1 hr 44 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.16 %
+JSON              1 hr 12 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.89 %
+```
+
 <!--END_SECTION:waka-->
