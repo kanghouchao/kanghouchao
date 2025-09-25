@@ -4,8 +4,7 @@
 
 - 🌱 Currently learning **Next.js**
 - 📫 Reach me: <kanhouchou@gmail.com>
-
-## WakaTime Stats
+- ⚡ Fun fact: I love **movies** and **cooking**
 <!--START_SECTION:waka-->
 ```text
 Updated at : Thu Sep 25 2025 06:24:36 GMT+0000 (Coordinated Universal Time)

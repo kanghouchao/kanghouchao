@@ -67,11 +67,11 @@ function formatSec(name, percent, hours, minutes) {
 }
 
 function renderMarkdown(stats) {
-  let content = "";
+  let content = "## WakaTime Stats (Last 7 Days)\n\n";
 
   content += "```text\n";
   var now = new Date();
-  content += `Updated at : ${now.toDateString() + " " + now.toTimeString()}\n`;
+  content += `Updated at : ${now.toTimeString()}\n`;
 
   content += `Data collection start: ${new Date(stats.start).toDateString()}\n`;
 
