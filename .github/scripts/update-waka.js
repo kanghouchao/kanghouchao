@@ -12,6 +12,12 @@ if (!WAKATIME_API_KEY) {
   process.exit(1);
 }
 
+/**
+ * Fetch WakaTime stats for the last 7 days.
+ *
+ * @see https://wakatime.com/developers#stats
+ * @returns {Promise<Object>} The WakaTime stats.
+ */
 function fetchWakaStats() {
   const url = "https://wakatime.com/api/v1/users/current/stats/last_7_days";
   return new Promise((resolve, reject) => {
@@ -46,6 +52,15 @@ function fetchWakaStats() {
   });
 }
 
+/**
+ * Format the section for display.
+ *
+ * @param {*} name
+ * @param {*} percent
+ * @param {*} hours
+ * @param {*} minutes
+ * @returns {string} e.g. "JavaScript   1h 20m   ████░░░░ 50.00 %"
+ */
 function formatSec(name, percent, hours, minutes) {
   const timeText =
     typeof hours === "number" && typeof minutes === "number"
@@ -66,6 +81,12 @@ function formatSec(name, percent, hours, minutes) {
   return `${namePadded}${middle}${bar}   ${percentText}`;
 }
 
+/**
+ * Render the WakaTime stats as Markdown.
+ *
+ * @param {*} stats
+ * @returns {string} The rendered Markdown.
+ */
 function renderMarkdown(stats) {
   let content = "## WakaTime Stats (Last 7 Days)\n\n";
 
@@ -118,6 +139,9 @@ function renderMarkdown(stats) {
   return content;
 }
 
+/**
+ * Main function to update the README.md file.
+ */
 async function main() {
   const readmePath = path.join(process.cwd(), "README.md");
   const readme = fs.readFileSync(readmePath, "utf-8");
