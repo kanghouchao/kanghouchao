@@ -9,34 +9,32 @@
 ## WakaTime Stats (Last 7 Days)
 
 ```text
-Updated at : 04:15:19 GMT+0000 (Coordinated Universal Time)
-Data collection start: Mon Oct 27 2025
+Updated at : 04:17:47 GMT+0000 (Coordinated Universal Time)
+Data collection start: Wed Oct 29 2025
 ```
 
 ### Languages
 
 ```text
-- PHP                    8h 43m              █████████░░░░░░░░░░░░░░░   37.14 %
-- Java                   4h 35m              █████░░░░░░░░░░░░░░░░░░░   19.55 %
-- HTML                   2h 29m              ███░░░░░░░░░░░░░░░░░░░░░   10.60 %
-- YAML                   1h 30m              ██░░░░░░░░░░░░░░░░░░░░░░   6.39 %
-- JavaScript             0h 57m              █░░░░░░░░░░░░░░░░░░░░░░░   4.06 %
+- PHP                    8h 26m              ██████████░░░░░░░░░░░░░░   42.21 %
+- Java                   4h 3m               █████░░░░░░░░░░░░░░░░░░░   20.26 %
+- HTML                   2h 4m               ██░░░░░░░░░░░░░░░░░░░░░░   10.34 %
+- YAML                   2h 1m               ██░░░░░░░░░░░░░░░░░░░░░░   10.09 %
+- SQL                    1h 2m               █░░░░░░░░░░░░░░░░░░░░░░░   5.23 %
 ```
 
 ### Operating Systems
 
 ```text
-- Windows                14h 35m             ███████████████░░░░░░░░░   62.13 %
-- Mac                    8h 53m              █████████░░░░░░░░░░░░░░░   37.87 %
+- Windows                14h 21m             █████████████████░░░░░░░   71.76 %
+- Mac                    5h 39m              ███████░░░░░░░░░░░░░░░░░   28.24 %
 ```
 
 ### Activities 
 
 ```text
-- Coding                 22h 30m             ███████████████████████░   95.89 %
-- Writing Docs           0h 52m              █░░░░░░░░░░░░░░░░░░░░░░░   3.73 %
-- Writing Tests          0h 3m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.25 %
-- AI Coding              0h 1m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.14 %
+- Coding                 19h 57m             ████████████████████████   99.71 %
+- Writing Tests          0h 3m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.29 %
 ```
 
 <!--END_SECTION:waka-->
