@@ -9,34 +9,34 @@
 ## WakaTime Stats (Last 7 Days)
 
 ```text
-Updated at : 04:12:54 GMT+0000 (Coordinated Universal Time)
-Data collection start: Fri Oct 31 2025
+Updated at : 04:13:41 GMT+0000 (Coordinated Universal Time)
+Data collection start: Sat Nov 01 2025
 ```
 
 ### Languages
 
 ```text
-- PHP                    9h 10m              ███████████░░░░░░░░░░░░░   44.56 %
-- Java                   4h 14m              █████░░░░░░░░░░░░░░░░░░░   20.58 %
-- HTML                   2h 11m              ███░░░░░░░░░░░░░░░░░░░░░   10.64 %
-- YAML                   2h 1m               ██░░░░░░░░░░░░░░░░░░░░░░   9.82 %
-- SQL                    1h 3m               █░░░░░░░░░░░░░░░░░░░░░░░   5.17 %
+- PHP                    11h 21m             ████████████░░░░░░░░░░░░   51.79 %
+- Java                   3h 40m              ████░░░░░░░░░░░░░░░░░░░░   16.74 %
+- JavaScript             2h 22m              ███░░░░░░░░░░░░░░░░░░░░░   10.80 %
+- YAML                   2h 1m               ██░░░░░░░░░░░░░░░░░░░░░░   9.21 %
+- HTML                   0h 54m              █░░░░░░░░░░░░░░░░░░░░░░░   4.17 %
 ```
 
 ### Operating Systems
 
 ```text
-- Windows                15h 27m             ██████████████████░░░░░░   75.05 %
-- Mac                    5h 8m               ██████░░░░░░░░░░░░░░░░░░   24.95 %
+- Windows                16h 48m             ██████████████████░░░░░░   76.60 %
+- Mac                    5h 8m               ██████░░░░░░░░░░░░░░░░░░   23.40 %
 ```
 
 ### Activities 
 
 ```text
-- Coding                 20h 26m             ████████████████████████   99.34 %
-- Writing Tests          0h 3m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.28 %
-- AI Coding              0h 2m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.21 %
-- Writing Docs           0h 2m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.17 %
+- Coding                 21h 48m             ████████████████████████   99.38 %
+- Writing Tests          0h 3m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.27 %
+- AI Coding              0h 2m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.20 %
+- Writing Docs           0h 2m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.16 %
 ```
 
 <!--END_SECTION:waka-->
