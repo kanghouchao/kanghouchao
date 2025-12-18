@@ -9,35 +9,35 @@
 ## WakaTime Stats (Last 7 Days)
 
 ```text
-Updated at : 04:25:21 GMT+0000 (Coordinated Universal Time)
-Data collection start: Tue Dec 09 2025
+Updated at : 04:25:35 GMT+0000 (Coordinated Universal Time)
+Data collection start: Wed Dec 10 2025
 ```
 
 ### Languages
 
 ```text
-- HTML                   7h 0m               ██████████░░░░░░░░░░░░░░   42.36 %
-- PHP                    4h 14m              ██████░░░░░░░░░░░░░░░░░░   25.59 %
-- Markdown               1h 32m              ██░░░░░░░░░░░░░░░░░░░░░░   9.32 %
-- Java                   1h 3m               ██░░░░░░░░░░░░░░░░░░░░░░   6.38 %
-- CSS                    0h 46m              █░░░░░░░░░░░░░░░░░░░░░░░   4.64 %
+- HTML                   7h 0m               ██████████░░░░░░░░░░░░░░   41.49 %
+- PHP                    4h 14m              ██████░░░░░░░░░░░░░░░░░░   25.07 %
+- Markdown               1h 32m              ██░░░░░░░░░░░░░░░░░░░░░░   9.13 %
+- Java                   1h 0m               █░░░░░░░░░░░░░░░░░░░░░░░   5.92 %
+- JSON                   0h 46m              █░░░░░░░░░░░░░░░░░░░░░░░   4.60 %
 ```
 
 ### Operating Systems
 
 ```text
-- Windows                13h 57m             ████████████████████░░░░   84.35 %
-- Mac                    2h 33m              ████░░░░░░░░░░░░░░░░░░░░   15.46 %
-- WSL                    0h 1m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.19 %
+- Windows                13h 57m             ████████████████████░░░░   82.63 %
+- Mac                    2h 54m              ████░░░░░░░░░░░░░░░░░░░░   17.19 %
+- WSL                    0h 1m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.18 %
 ```
 
 ### Activities 
 
 ```text
-- Coding                 14h 59m             ██████████████████████░░   90.55 %
-- Writing Docs           1h 32m              ██░░░░░░░░░░░░░░░░░░░░░░   9.32 %
+- Coding                 15h 20m             ██████████████████████░░   90.75 %
+- Writing Docs           1h 32m              ██░░░░░░░░░░░░░░░░░░░░░░   9.13 %
 - AI Coding              0h 1m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.11 %
-- Debugging              0h 0m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.01 %
+- Writing Tests          0h 0m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.01 %
 ```
 
 <!--END_SECTION:waka-->
