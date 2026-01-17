@@ -9,34 +9,34 @@
 ## WakaTime Stats (Last 7 Days)
 
 ```text
-Updated at : 04:31:40 GMT+0000 (Coordinated Universal Time)
-Data collection start: Thu Jan 08 2026
+Updated at : 04:24:26 GMT+0000 (Coordinated Universal Time)
+Data collection start: Fri Jan 09 2026
 ```
 
 ### Languages
 
 ```text
-- HTML                   4h 18m              ████████░░░░░░░░░░░░░░░░   33.52 %
-- Java                   2h 36m              █████░░░░░░░░░░░░░░░░░░░   20.27 %
-- PHP                    2h 1m               ████░░░░░░░░░░░░░░░░░░░░   15.72 %
-- Markdown               0h 37m              █░░░░░░░░░░░░░░░░░░░░░░░   4.83 %
-- Other                  0h 33m              █░░░░░░░░░░░░░░░░░░░░░░░   4.39 %
+- HTML                   4h 18m              ████████░░░░░░░░░░░░░░░░   34.79 %
+- Java                   2h 43m              █████░░░░░░░░░░░░░░░░░░░   21.99 %
+- PHP                    1h 53m              ████░░░░░░░░░░░░░░░░░░░░   15.24 %
+- Markdown               0h 40m              █░░░░░░░░░░░░░░░░░░░░░░░   5.45 %
+- CSS                    0h 39m              █░░░░░░░░░░░░░░░░░░░░░░░   5.38 %
 ```
 
 ### Operating Systems
 
 ```text
-- Windows                9h 14m              █████████████████░░░░░░░   72.00 %
-- Mac                    3h 35m              ███████░░░░░░░░░░░░░░░░░   28.00 %
+- Windows                9h 26m              ██████████████████░░░░░░   76.10 %
+- Mac                    2h 57m              ██████░░░░░░░░░░░░░░░░░░   23.90 %
 ```
 
 ### Activities 
 
 ```text
-- Coding                 12h 12m             ███████████████████████░   95.06 %
-- Writing Docs           0h 37m              █░░░░░░░░░░░░░░░░░░░░░░░   4.82 %
-- AI Coding              0h 0m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.06 %
+- Coding                 11h 42m             ███████████████████████░   94.48 %
+- Writing Docs           0h 40m              █░░░░░░░░░░░░░░░░░░░░░░░   5.44 %
 - Writing Tests          0h 0m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.05 %
+- AI Coding              0h 0m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.01 %
 - Building               0h 0m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.01 %
 ```
 
