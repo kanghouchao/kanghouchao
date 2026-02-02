@@ -9,32 +9,32 @@
 ## WakaTime Stats (Last 7 Days)
 
 ```text
-Updated at : 05:18:25 GMT+0000 (Coordinated Universal Time)
-Data collection start: Sat Jan 24 2026
+Updated at : 05:19:23 GMT+0000 (Coordinated Universal Time)
+Data collection start: Sun Jan 25 2026
 ```
 
 ### Languages
 
 ```text
-- Java                   2h 36m              ████████░░░░░░░░░░░░░░░░   32.41 %
-- HTML                   1h 1m               ███░░░░░░░░░░░░░░░░░░░░░   12.65 %
-- JavaScript             0h 58m              ███░░░░░░░░░░░░░░░░░░░░░   12.06 %
-- YAML                   0h 51m              ███░░░░░░░░░░░░░░░░░░░░░   10.66 %
-- Markdown               0h 46m              ██░░░░░░░░░░░░░░░░░░░░░░   9.60 %
+- Java                   2h 36m              ████████░░░░░░░░░░░░░░░░   32.43 %
+- HTML                   1h 1m               ███░░░░░░░░░░░░░░░░░░░░░   12.66 %
+- JavaScript             0h 58m              ███░░░░░░░░░░░░░░░░░░░░░   12.07 %
+- YAML                   0h 51m              ███░░░░░░░░░░░░░░░░░░░░░   10.67 %
+- Markdown               0h 46m              ██░░░░░░░░░░░░░░░░░░░░░░   9.61 %
 ```
 
 ### Operating Systems
 
 ```text
-- Mac                    4h 31m              ██████████████░░░░░░░░░░   56.37 %
-- Windows                3h 30m              ██████████░░░░░░░░░░░░░░   43.63 %
+- Mac                    4h 31m              ██████████████░░░░░░░░░░   56.33 %
+- Windows                3h 30m              ██████████░░░░░░░░░░░░░░   43.67 %
 ```
 
 ### Activities 
 
 ```text
-- Coding                 7h 6m               █████████████████████░░░   88.34 %
-- Writing Docs           0h 46m              ██░░░░░░░░░░░░░░░░░░░░░░   9.59 %
+- Coding                 7h 5m               █████████████████████░░░   88.33 %
+- Writing Docs           0h 46m              ██░░░░░░░░░░░░░░░░░░░░░░   9.60 %
 - Writing Tests          0h 8m               ░░░░░░░░░░░░░░░░░░░░░░░░   1.84 %
 - AI Coding              0h 1m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.23 %
 - Building               0h 0m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.01 %
