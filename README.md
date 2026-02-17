@@ -9,33 +9,33 @@
 ## WakaTime Stats (Last 7 Days)
 
 ```text
-Updated at : 05:22:17 GMT+0000 (Coordinated Universal Time)
-Data collection start: Sun Feb 08 2026
+Updated at : 05:17:04 GMT+0000 (Coordinated Universal Time)
+Data collection start: Mon Feb 09 2026
 ```
 
 ### Languages
 
 ```text
-- Java                   5h 7m               ████████░░░░░░░░░░░░░░░░   32.06 %
-- HTML                   3h 9m               █████░░░░░░░░░░░░░░░░░░░   19.68 %
-- TypeScript             1h 56m              ███░░░░░░░░░░░░░░░░░░░░░   12.13 %
-- Markdown               0h 51m              █░░░░░░░░░░░░░░░░░░░░░░░   5.33 %
-- CSS                    0h 50m              █░░░░░░░░░░░░░░░░░░░░░░░   5.27 %
+- Java                   7h 1m               ███████████░░░░░░░░░░░░░   43.96 %
+- HTML                   1h 51m              ███░░░░░░░░░░░░░░░░░░░░░   11.68 %
+- TypeScript             1h 22m              ██░░░░░░░░░░░░░░░░░░░░░░   8.60 %
+- YAML                   1h 5m               ██░░░░░░░░░░░░░░░░░░░░░░   6.86 %
+- Markdown               0h 51m              █░░░░░░░░░░░░░░░░░░░░░░░   5.36 %
 ```
 
 ### Operating Systems
 
 ```text
-- Windows                10h 8m              ███████████████░░░░░░░░░   63.30 %
-- Mac                    5h 52m              █████████░░░░░░░░░░░░░░░   36.70 %
+- Windows                8h 28m              █████████████░░░░░░░░░░░   53.05 %
+- Mac                    7h 29m              ███████████░░░░░░░░░░░░░   46.95 %
 ```
 
 ### Activities 
 
 ```text
-- Coding                 13h 59m             █████████████████████░░░   87.41 %
-- Writing Tests          1h 8m               ██░░░░░░░░░░░░░░░░░░░░░░   7.08 %
-- Writing Docs           0h 51m              █░░░░░░░░░░░░░░░░░░░░░░░   5.33 %
+- Coding                 13h 51m             █████████████████████░░░   86.76 %
+- Writing Tests          1h 13m              ██░░░░░░░░░░░░░░░░░░░░░░   7.71 %
+- Writing Docs           0h 51m              █░░░░░░░░░░░░░░░░░░░░░░░   5.36 %
 - AI Coding              0h 1m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.17 %
 - Debugging              0h 0m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.01 %
 ```
