@@ -9,34 +9,34 @@
 ## WakaTime Stats (Last 7 Days)
 
 ```text
-Updated at : 05:17:13 GMT+0000 (Coordinated Universal Time)
-Data collection start: Wed Feb 11 2026
+Updated at : 05:11:34 GMT+0000 (Coordinated Universal Time)
+Data collection start: Thu Feb 12 2026
 ```
 
 ### Languages
 
 ```text
-- Java                   4h 30m              █████████░░░░░░░░░░░░░░░   36.43 %
-- YAML                   1h 57m              ████░░░░░░░░░░░░░░░░░░░░   15.80 %
-- HTML                   1h 28m              ███░░░░░░░░░░░░░░░░░░░░░   11.89 %
-- TypeScript             1h 3m               ██░░░░░░░░░░░░░░░░░░░░░░   8.60 %
-- Markdown               0h 51m              ██░░░░░░░░░░░░░░░░░░░░░░   6.91 %
+- Java                   5h 4m               ████████░░░░░░░░░░░░░░░░   34.02 %
+- HTML                   2h 7m               ███░░░░░░░░░░░░░░░░░░░░░   14.24 %
+- YAML                   1h 57m              ███░░░░░░░░░░░░░░░░░░░░░   13.12 %
+- TypeScript             1h 3m               ██░░░░░░░░░░░░░░░░░░░░░░   7.14 %
+- Markdown               1h 1m               ██░░░░░░░░░░░░░░░░░░░░░░   6.85 %
 ```
 
 ### Operating Systems
 
 ```text
-- Mac                    6h 40m              █████████████░░░░░░░░░░░   53.95 %
-- Windows                5h 41m              ███████████░░░░░░░░░░░░░   46.05 %
+- Windows                8h 18m              █████████████░░░░░░░░░░░   55.68 %
+- Mac                    6h 36m              ███████████░░░░░░░░░░░░░   44.32 %
 ```
 
 ### Activities 
 
 ```text
-- Coding                 10h 5m              ████████████████████░░░░   81.50 %
-- Writing Tests          1h 15m              ██░░░░░░░░░░░░░░░░░░░░░░   10.22 %
-- Writing Docs           0h 51m              ██░░░░░░░░░░░░░░░░░░░░░░   6.91 %
-- AI Coding              0h 10m              ░░░░░░░░░░░░░░░░░░░░░░░░   1.35 %
+- Coding                 12h 27m             ████████████████████░░░░   83.53 %
+- Writing Tests          1h 15m              ██░░░░░░░░░░░░░░░░░░░░░░   8.48 %
+- Writing Docs           1h 1m               ██░░░░░░░░░░░░░░░░░░░░░░   6.85 %
+- AI Coding              0h 10m              ░░░░░░░░░░░░░░░░░░░░░░░░   1.12 %
 - Debugging              0h 0m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.02 %
 ```
 
