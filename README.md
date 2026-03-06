@@ -9,33 +9,34 @@
 ## WakaTime Stats (Last 7 Days)
 
 ```text
-Updated at : 05:08:29 GMT+0000 (Coordinated Universal Time)
-Data collection start: Wed Feb 25 2026
+Updated at : 05:05:07 GMT+0000 (Coordinated Universal Time)
+Data collection start: Thu Feb 26 2026
 ```
 
 ### Languages
 
 ```text
-- Python                 2h 36m              █████░░░░░░░░░░░░░░░░░░░   22.15 %
-- Java                   2h 16m              █████░░░░░░░░░░░░░░░░░░░   19.37 %
-- PHP                    1h 23m              ███░░░░░░░░░░░░░░░░░░░░░   11.79 %
-- Markdown               1h 22m              ███░░░░░░░░░░░░░░░░░░░░░   11.68 %
-- Bash                   0h 49m              ██░░░░░░░░░░░░░░░░░░░░░░   6.96 %
+- Python                 2h 36m              ████░░░░░░░░░░░░░░░░░░░░   18.00 %
+- Markdown               2h 30m              ████░░░░░░░░░░░░░░░░░░░░   17.31 %
+- Java                   2h 16m              ████░░░░░░░░░░░░░░░░░░░░   15.74 %
+- PHP                    1h 23m              ██░░░░░░░░░░░░░░░░░░░░░░   9.59 %
+- YAML                   0h 50m              █░░░░░░░░░░░░░░░░░░░░░░░   5.82 %
 ```
 
 ### Operating Systems
 
 ```text
-- Mac                    6h 53m              ██████████████░░░░░░░░░░   58.43 %
-- Windows                4h 53m              ██████████░░░░░░░░░░░░░░   41.57 %
+- Mac                    9h 35m              ████████████████░░░░░░░░   66.21 %
+- Windows                4h 53m              ████████░░░░░░░░░░░░░░░░   33.79 %
 ```
 
 ### Activities 
 
 ```text
-- Coding                 10h 20m             █████████████████████░░░   87.82 %
-- Writing Docs           1h 11m              ██░░░░░░░░░░░░░░░░░░░░░░   10.06 %
-- AI Coding              0h 15m              █░░░░░░░░░░░░░░░░░░░░░░░   2.12 %
+- Coding                 11h 41m             ███████████████████░░░░░   80.62 %
+- Writing Docs           2h 19m              ████░░░░░░░░░░░░░░░░░░░░   15.99 %
+- AI Coding              0h 15m              ░░░░░░░░░░░░░░░░░░░░░░░░   1.73 %
+- Writing Tests          0h 14m              ░░░░░░░░░░░░░░░░░░░░░░░░   1.67 %
 ```
 
 <!--END_SECTION:waka-->
