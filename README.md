@@ -9,35 +9,35 @@
 ## WakaTime Stats (Last 7 Days)
 
 ```text
-Updated at : 05:50:01 GMT+0000 (Coordinated Universal Time)
-Data collection start: Tue Mar 24 2026
+Updated at : 05:27:13 GMT+0000 (Coordinated Universal Time)
+Data collection start: Wed Mar 25 2026
 ```
 
 ### Languages
 
 ```text
-- Markdown               5h 47m              █████████░░░░░░░░░░░░░░░   36.20 %
-- TypeScript             5h 42m              █████████░░░░░░░░░░░░░░░   35.69 %
-- Java                   1h 3m               ██░░░░░░░░░░░░░░░░░░░░░░   6.56 %
-- JSON                   1h 0m               ██░░░░░░░░░░░░░░░░░░░░░░   6.33 %
-- Bash                   0h 36m              █░░░░░░░░░░░░░░░░░░░░░░░   3.80 %
+- TypeScript             6h 36m              █████████░░░░░░░░░░░░░░░   37.25 %
+- Markdown               5h 54m              ████████░░░░░░░░░░░░░░░░   33.34 %
+- Java                   1h 3m               █░░░░░░░░░░░░░░░░░░░░░░░   5.93 %
+- JSON                   0h 59m              █░░░░░░░░░░░░░░░░░░░░░░░   5.60 %
+- Bash                   0h 42m              █░░░░░░░░░░░░░░░░░░░░░░░   3.97 %
 ```
 
 ### Operating Systems
 
 ```text
-- Mac                    8h 43m              █████████████░░░░░░░░░░░   54.51 %
-- Windows                7h 16m              ███████████░░░░░░░░░░░░░   45.49 %
+- Mac                    10h 26m             ██████████████░░░░░░░░░░   58.94 %
+- Windows                7h 16m              ██████████░░░░░░░░░░░░░░   41.06 %
 ```
 
 ### Activities 
 
 ```text
-- AI Coding              10h 37m             ████████████████░░░░░░░░   66.44 %
-- Writing Docs           2h 38m              ████░░░░░░░░░░░░░░░░░░░░   16.50 %
-- Coding                 2h 19m              ███░░░░░░░░░░░░░░░░░░░░░   14.57 %
-- Writing Tests          0h 21m              █░░░░░░░░░░░░░░░░░░░░░░░   2.27 %
-- Debugging              0h 2m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.22 %
+- AI Coding              10h 2m              ██████████████░░░░░░░░░░   56.65 %
+- Coding                 4h 28m              ██████░░░░░░░░░░░░░░░░░░   25.23 %
+- Writing Docs           2h 48m              ████░░░░░░░░░░░░░░░░░░░░   15.83 %
+- Writing Tests          0h 22m              █░░░░░░░░░░░░░░░░░░░░░░░   2.09 %
+- Debugging              0h 2m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.20 %
 ```
 
 <!--END_SECTION:waka-->
