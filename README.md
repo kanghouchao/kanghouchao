@@ -9,34 +9,34 @@
 ## WakaTime Stats (Last 7 Days)
 
 ```text
-Updated at : 05:28:25 GMT+0000 (Coordinated Universal Time)
-Data collection start: Thu Mar 26 2026
+Updated at : 05:17:17 GMT+0000 (Coordinated Universal Time)
+Data collection start: Fri Mar 27 2026
 ```
 
 ### Languages
 
 ```text
-- TypeScript             7h 41m              █████████░░░░░░░░░░░░░░░   37.89 %
-- Markdown               6h 54m              ████████░░░░░░░░░░░░░░░░   34.02 %
-- Java                   1h 3m               █░░░░░░░░░░░░░░░░░░░░░░░   5.17 %
-- Other                  0h 58m              █░░░░░░░░░░░░░░░░░░░░░░░   4.84 %
-- JSON                   0h 58m              █░░░░░░░░░░░░░░░░░░░░░░░   4.81 %
+- Markdown               6h 40m              █████████░░░░░░░░░░░░░░░   36.73 %
+- TypeScript             6h 22m              ████████░░░░░░░░░░░░░░░░   35.06 %
+- Other                  0h 58m              █░░░░░░░░░░░░░░░░░░░░░░░   5.40 %
+- JSON                   0h 58m              █░░░░░░░░░░░░░░░░░░░░░░░   5.35 %
+- YAML                   0h 34m              █░░░░░░░░░░░░░░░░░░░░░░░   3.16 %
 ```
 
 ### Operating Systems
 
 ```text
-- Mac                    12h 49m             ███████████████░░░░░░░░░   63.21 %
-- Windows                7h 28m              █████████░░░░░░░░░░░░░░░   36.79 %
+- Mac                    12h 7m              ████████████████░░░░░░░░   66.73 %
+- Windows                6h 2m               ████████░░░░░░░░░░░░░░░░   33.27 %
 ```
 
 ### Activities 
 
 ```text
-- AI Coding              9h 54m              ████████████░░░░░░░░░░░░   48.84 %
-- Writing Docs           5h 22m              ██████░░░░░░░░░░░░░░░░░░   26.50 %
-- Coding                 4h 38m              █████░░░░░░░░░░░░░░░░░░░   22.83 %
-- Writing Tests          0h 22m              ░░░░░░░░░░░░░░░░░░░░░░░░   1.82 %
+- AI Coding              7h 55m              ██████████░░░░░░░░░░░░░░   43.59 %
+- Writing Docs           5h 21m              ███████░░░░░░░░░░░░░░░░░   29.44 %
+- Coding                 4h 31m              ██████░░░░░░░░░░░░░░░░░░   24.93 %
+- Writing Tests          0h 22m              ░░░░░░░░░░░░░░░░░░░░░░░░   2.04 %
 ```
 
 <!--END_SECTION:waka-->
