@@ -81,6 +81,31 @@ function formatSec(name, percent, hours, minutes) {
   return `${namePadded}${middle}${bar}   ${percentText}`;
 }
 
+function formatJST(date, includeTime = true) {
+  const options = {
+    timeZone: "Asia/Tokyo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  };
+  if (includeTime) {
+    options.hour = "2-digit";
+    options.minute = "2-digit";
+    options.second = "2-digit";
+    options.hour12 = false;
+  }
+  
+  const formatter = new Intl.DateTimeFormat("ja-JP", options);
+  const parts = formatter.formatToParts(date);
+  const p = (type) => parts.find((part) => part.type === type).value;
+  
+  let result = `${p("year")}年${p("month")}月${p("day")}日`;
+  if (includeTime) {
+    result += ` ${p("hour")}:${p("minute")}:${p("second")} JST`;
+  }
+  return result;
+}
+
 /**
  * Render the WakaTime stats as Markdown.
  *
@@ -92,20 +117,10 @@ function renderMarkdown(stats) {
 
   content += "```text\n";
   var now = new Date();
-  const timeStr = now.toLocaleString("ja-JP", {
-    timeZone: "Asia/Tokyo",
-    hour12: false,
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-    hour: "2-digit",
-    minute: "2-digit",
-    second: "2-digit",
-    timeZoneName: "short",
-  });
-  content += `Updated at : ${timeStr}\n`;
+  content += `Updated at : ${formatJST(now)}\n`;
 
-  content += `Data collection start: ${new Date(stats.start).toDateString()}\n`;
+  const startDate = new Date(stats.start);
+  content += `Data collection start: ${formatJST(startDate, false)}\n`;
 
   content += "```\n\n";
 
