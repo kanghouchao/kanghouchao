@@ -3,7 +3,7 @@
 ## I'm a backend developer from China, currently living in Japan.
 
 - 🌱 I’m currently learning **Next.js** and **PostgreSQL** through this project: https://github.com/kanghouchao/Kizuna
-- 📫 Reach me: kanhouchou@gmail.com
+- 📫 Reach me: hchkang8710@gmail.com
 - ⚡ Fun fact: I love **movies** and **music**.
 <!--START_SECTION:waka-->
 ## WakaTime Stats (Last 7 Days)
