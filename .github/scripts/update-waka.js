@@ -82,6 +82,10 @@ function formatSec(name, percent, hours, minutes) {
 }
 
 function formatJST(date, includeTime = true) {
+  if (!date || isNaN(date.getTime())) {
+    return "N/A";
+  }
+
   const options = {
     timeZone: "Asia/Tokyo",
     year: "numeric",
@@ -95,15 +99,30 @@ function formatJST(date, includeTime = true) {
     options.hour12 = false;
   }
   
-  const formatter = new Intl.DateTimeFormat("ja-JP", options);
-  const parts = formatter.formatToParts(date);
-  const p = (type) => parts.find((part) => part.type === type).value;
-  
-  let result = `${p("year")}年${p("month")}月${p("day")}日`;
-  if (includeTime) {
-    result += ` ${p("hour")}:${p("minute")}:${p("second")} JST`;
+  try {
+    const formatter = new Intl.DateTimeFormat("ja-JP", options);
+    const parts = formatter.formatToParts(date);
+    const getPart = (type) => {
+      const part = parts.find((p) => p.type === type);
+      return part ? part.value : "";
+    };
+    
+    const year = getPart("year");
+    const month = getPart("month");
+    const day = getPart("day");
+    
+    let result = `${year}年${month}月${day}日`;
+    if (includeTime) {
+      const hour = getPart("hour");
+      const minute = getPart("minute");
+      const second = getPart("second");
+      result += ` ${hour}:${minute}:${second} JST`;
+    }
+    return result;
+  } catch (err) {
+    console.error("Formatting error:", err);
+    return date.toISOString();
   }
-  return result;
 }
 
 /**
