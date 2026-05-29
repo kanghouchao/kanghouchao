@@ -9,8 +9,35 @@
 ## WakaTime Stats (Last 7 Days)
 
 ```text
-Updated at : 2026年05月29日 07:41:44 JST
-Data collection start: N/A
+Updated at : 2026年05月30日 07:38:35 JST
+Data collection start: 2026年05月22日
+```
+
+### Languages
+
+```text
+- Java                   12h 5m              ███████░░░░░░░░░░░░░░░░░   27.38 %
+- Swift                  10h 44m             ██████░░░░░░░░░░░░░░░░░░   24.35 %
+- YAML                   6h 37m              ████░░░░░░░░░░░░░░░░░░░░   15.03 %
+- Markdown               4h 57m              ███░░░░░░░░░░░░░░░░░░░░░   11.24 %
+- Other                  2h 45m              ██░░░░░░░░░░░░░░░░░░░░░░   6.25 %
+```
+
+### Operating Systems
+
+```text
+- Mac                    38h 16m             █████████████████████░░░   86.74 %
+- Windows                5h 51m              ███░░░░░░░░░░░░░░░░░░░░░   13.26 %
+```
+
+### Activities 
+
+```text
+- AI Coding              37h 4m              ████████████████████░░░░   84.00 %
+- Coding                 6h 30m              ████░░░░░░░░░░░░░░░░░░░░   14.74 %
+- Writing Tests          0h 18m              ░░░░░░░░░░░░░░░░░░░░░░░░   0.71 %
+- Writing Docs           0h 14m              ░░░░░░░░░░░░░░░░░░░░░░░░   0.55 %
+- Building               0h 0m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.00 %
 ```
 
 <!--END_SECTION:waka-->
