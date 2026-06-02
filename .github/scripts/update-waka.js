@@ -94,30 +94,25 @@ function renderMarkdown(stats) {
 
   md += `**📊 Weekly Development Breakdown** · \`${formatJST(now)}\`\n\n`;
 
-  // Agents — structure: [{name, lines, cost}]
+  // Total coding time
+  if (stats.human_readable_total) {
+    md += `**⏱️ Total Coding Time: ${stats.human_readable_total}** (daily avg: ${stats.human_readable_daily_average || "N/A"})\n\n`;
+  }
+
+  // Agents — structure: [{name, lines, cost}] + AI Tokens total
   const agents = stats.ai_agent_breakdown;
   if (Array.isArray(agents) && agents.length > 0) {
     const totalLines = agents.reduce((s, a) => s + (a.lines || 0), 0);
-    md += "**🤖 Agents**\n\n";
+    const totalTokens = (stats.ai_input_tokens || 0) + (stats.ai_output_tokens || 0);
+    md += "**🤖 Agents**";
+    if (totalTokens > 0) md += ` · AI Tokens: ${formatNumber(totalTokens)}`;
+    md += "\n\n";
     md += "```text\n";
     for (const agent of agents.slice(0, 8)) {
       const pct = totalLines > 0 ? ((agent.lines || 0) / totalLines) * 100 : 0;
       const cost = agent.cost != null ? `$${agent.cost.toFixed(2)}` : "";
       md += `${agent.name.padEnd(16)}${formatNumber(agent.lines || 0).padStart(8)} lines   ${cost.padStart(8)}   ${formatBar(pct)}  ${pct.toFixed(1)} %\n`;
     }
-    md += "```\n\n";
-  }
-
-  // AI Tokens
-  const inputTokens = stats.ai_input_tokens || 0;
-  const outputTokens = stats.ai_output_tokens || 0;
-  if (inputTokens > 0 || outputTokens > 0) {
-    const totalTokens = inputTokens + outputTokens;
-    md += "**🔤 AI Tokens**\n\n";
-    md += "```text\n";
-    md += `Input Tokens         ${formatNumber(inputTokens).padEnd(12)}${formatBar(totalTokens > 0 ? (inputTokens / totalTokens) * 100 : 0)}\n`;
-    md += `Output Tokens        ${formatNumber(outputTokens).padEnd(12)}${formatBar(totalTokens > 0 ? (outputTokens / totalTokens) * 100 : 0)}\n`;
-    md += `Total                ${formatNumber(totalTokens)}\n`;
     md += "```\n\n";
   }
 
