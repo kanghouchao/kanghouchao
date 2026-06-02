@@ -62,21 +62,14 @@
 ### ⏱️ WakaTime Stats (Last 7 Days)
 
 <!--START_SECTION:waka-->
-**📊 Weekly Development Breakdown** · `2026年06月02日 15:27:30 JST`
+**📊 Weekly Development Breakdown** · `2026年06月02日 15:41:42 JST`
 
-**🤖 AI Coding vs Human Coding**
-
-```text
-AI Coding           26h 25m     █████████████████████░░░░  84.46 %
-Human Coding        3h 23m      ███░░░░░░░░░░░░░░░░░░░░░░  10.86 %
-```
-
-**📝 Line Changes (AI vs Human)**
+**🔤 AI Tokens**
 
 ```text
-             Additions    Deletions
-🤖 AI        +6799       -1925        (93.5% of additions)
-👨‍💻 Human     +470        -682         (6.5% of additions)
+Input Tokens         360.7M      █████████████████████████
+Output Tokens        1.4M        ░░░░░░░░░░░░░░░░░░░░░░░░░
+Total                362.1M
 ```
 
 **💻 Languages**
