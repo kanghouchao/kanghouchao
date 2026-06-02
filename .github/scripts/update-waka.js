@@ -60,6 +60,12 @@ function formatLine(name, percent, hours, minutes) {
   return `${namePad}${timePad}${bar}  ${percent.toFixed(2)} %`;
 }
 
+function formatNumber(n) {
+  if (n >= 1000000) return (n / 1000000).toFixed(1) + "M";
+  if (n >= 1000) return (n / 1000).toFixed(1) + "K";
+  return String(n);
+}
+
 function formatJST(date, includeTime = true) {
   if (!date || isNaN(date.getTime())) return "N/A";
   const options = {
@@ -82,49 +88,32 @@ function formatJST(date, includeTime = true) {
   return result;
 }
 
-function renderMarkdown(stats, insights) {
+function renderMarkdown(stats) {
   const now = new Date();
   let md = "";
 
-  // Header
   md += `**📊 Weekly Development Breakdown** · \`${formatJST(now)}\`\n\n`;
 
-  // AI vs Human coding stats
-  const aiCategory = (stats.categories || []).find(
-    (c) => c.name.toLowerCase() === "ai coding"
-  );
-  const codingCategory = (stats.categories || []).find(
-    (c) => c.name.toLowerCase() === "coding"
-  );
-
-  if (aiCategory || codingCategory) {
-    md += "**🤖 AI Coding vs Human Coding**\n\n";
+  // Agents (AI tools like Claude Code, Cursor, Copilot, etc.)
+  if (stats.agents && stats.agents.length > 0) {
+    md += "**🤖 Agents**\n\n";
     md += "```text\n";
-    if (aiCategory) {
-      md += `AI Coding           ${formatTime(aiCategory.hours, aiCategory.minutes).padEnd(12)}${formatBar(aiCategory.percent)}  ${aiCategory.percent.toFixed(2)} %\n`;
-    }
-    if (codingCategory) {
-      md += `Human Coding        ${formatTime(codingCategory.hours, codingCategory.minutes).padEnd(12)}${formatBar(codingCategory.percent)}  ${codingCategory.percent.toFixed(2)} %\n`;
+    for (const agent of stats.agents.slice(0, 8)) {
+      md += `${formatLine(agent.name, agent.percent, agent.hours, agent.minutes)}\n`;
     }
     md += "```\n\n";
   }
 
-  // AI line changes
-  if (stats.ai_additions != null || stats.ai_deletions != null) {
-    const aiAdd = stats.ai_additions || 0;
-    const aiDel = stats.ai_deletions || 0;
-    const humanAdd = stats.human_additions || 0;
-    const humanDel = stats.human_deletions || 0;
-    const totalAdd = aiAdd + humanAdd;
-    const totalDel = aiDel + humanDel;
-    const aiAddPct = totalAdd > 0 ? ((aiAdd / totalAdd) * 100).toFixed(1) : "0.0";
-    const humanAddPct = totalAdd > 0 ? ((humanAdd / totalAdd) * 100).toFixed(1) : "0.0";
-
-    md += "**📝 Line Changes (AI vs Human)**\n\n";
+  // AI Tokens
+  const inputTokens = stats.ai_input_tokens || 0;
+  const outputTokens = stats.ai_output_tokens || 0;
+  if (inputTokens > 0 || outputTokens > 0) {
+    const totalTokens = inputTokens + outputTokens;
+    md += "**🔤 AI Tokens**\n\n";
     md += "```text\n";
-    md += `             Additions    Deletions\n`;
-    md += `🤖 AI        +${String(aiAdd).padEnd(10)} -${String(aiDel).padEnd(10)}  (${aiAddPct}% of additions)\n`;
-    md += `👨‍💻 Human     +${String(humanAdd).padEnd(10)} -${String(humanDel).padEnd(10)}  (${humanAddPct}% of additions)\n`;
+    md += `Input Tokens         ${formatNumber(inputTokens).padEnd(12)}${formatBar(totalTokens > 0 ? (inputTokens / totalTokens) * 100 : 0)}\n`;
+    md += `Output Tokens        ${formatNumber(outputTokens).padEnd(12)}${formatBar(totalTokens > 0 ? (outputTokens / totalTokens) * 100 : 0)}\n`;
+    md += `Total                ${formatNumber(totalTokens)}\n`;
     md += "```\n\n";
   }
 
@@ -159,7 +148,7 @@ function renderMarkdown(stats, insights) {
     md += "```\n\n";
   }
 
-  // All activities
+  // Activities
   if (stats.categories && stats.categories.length > 0) {
     md += "**⚡ Activities**\n\n";
     md += "```text\n";
@@ -176,14 +165,16 @@ async function main() {
   const readmePath = path.join(process.cwd(), "README.md");
   const readme = fs.readFileSync(readmePath, "utf-8");
 
-  const [statsRes, insightsRes] = await Promise.all([
-    wakaFetch("stats/last_7_days"),
-    wakaFetch("insights/ai_days/last_7_days").catch(() => null),
-  ]);
-
+  const statsRes = await wakaFetch("stats/last_7_days");
   const stats = statsRes.data;
-  const insights = insightsRes ? insightsRes.data : null;
-  const mdSection = renderMarkdown(stats, insights);
+
+  // Log available top-level keys for debugging
+  console.log("Stats keys:", Object.keys(stats).join(", "));
+  if (stats.agents) console.log("Agents found:", stats.agents.length);
+  if (stats.ai_input_tokens != null) console.log("AI input tokens:", stats.ai_input_tokens);
+  if (stats.ai_output_tokens != null) console.log("AI output tokens:", stats.ai_output_tokens);
+
+  const mdSection = renderMarkdown(stats);
 
   const before = readme.split(START_MARK)[0];
   const after = readme.split(END_MARK)[1] || "";
