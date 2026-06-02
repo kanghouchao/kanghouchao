@@ -94,27 +94,18 @@ function renderMarkdown(stats) {
 
   md += `**📊 Weekly Development Breakdown** · \`${formatJST(now)}\`\n\n`;
 
-  // Agents (AI tools like Claude Code, Cursor, Copilot, etc.)
+  // Agents — structure: [{name, lines, cost}]
   const agents = stats.ai_agent_breakdown;
   if (Array.isArray(agents) && agents.length > 0) {
+    const totalLines = agents.reduce((s, a) => s + (a.lines || 0), 0);
     md += "**🤖 Agents**\n\n";
     md += "```text\n";
     for (const agent of agents.slice(0, 8)) {
-      md += `${formatLine(agent.name, agent.percent, agent.hours, agent.minutes)}\n`;
+      const pct = totalLines > 0 ? ((agent.lines || 0) / totalLines) * 100 : 0;
+      const cost = agent.cost != null ? `$${agent.cost.toFixed(2)}` : "";
+      md += `${agent.name.padEnd(16)}${formatNumber(agent.lines || 0).padStart(8)} lines   ${cost.padStart(8)}   ${formatBar(pct)}  ${pct.toFixed(1)} %\n`;
     }
     md += "```\n\n";
-  } else if (agents && typeof agents === "object" && !Array.isArray(agents)) {
-    const entries = Object.entries(agents).sort((a, b) => b[1] - a[1]);
-    if (entries.length > 0) {
-      const total = entries.reduce((s, [, v]) => s + (typeof v === "number" ? v : 0), 0);
-      md += "**🤖 Agents**\n\n";
-      md += "```text\n";
-      for (const [name, value] of entries.slice(0, 8)) {
-        const pct = total > 0 ? (value / total) * 100 : 0;
-        md += `${name.padEnd(20)}${String(value).padEnd(12)}${formatBar(pct)}  ${pct.toFixed(2)} %\n`;
-      }
-      md += "```\n\n";
-    }
   }
 
   // AI Tokens
