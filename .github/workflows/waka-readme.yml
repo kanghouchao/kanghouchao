@@ -1,6 +1,8 @@
 name: Waka Readme
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
   schedule:
     - cron: '0 21 * * *' # At 21:00 UTC (6:00 AM JST) every day
