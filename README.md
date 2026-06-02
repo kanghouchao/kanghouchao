@@ -65,8 +65,15 @@
 ### ⏱️ WakaTime Stats (Last 7 Days)
 
 <!--START_SECTION:waka-->
+**📊 Weekly Development Breakdown** · `2026年06月02日 16:05:23 JST`
 
-**📊 Weekly Development Breakdown** · `2026年06月02日 15:41:42 JST`
+**🤖 Agents**
+
+```text
+Claude              5.8K lines     $34.93   █████████████████░░░░░░░░  66.8 %
+Codex               2.9K lines      $7.92   ████████░░░░░░░░░░░░░░░░░  33.2 %
+Copilot                2 lines      $0.57   ░░░░░░░░░░░░░░░░░░░░░░░░░  0.0 %
+```
 
 **🔤 AI Tokens**
 
