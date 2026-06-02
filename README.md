@@ -75,38 +75,56 @@
 ### ⏱️ WakaTime Stats (Last 7 Days)
 
 <!--START_SECTION:waka-->
-## WakaTime Stats (Last 7 Days)
+**📊 Weekly Development Breakdown** · `2026年06月02日 15:27:30 JST`
+
+**🤖 AI Coding vs Human Coding**
 
 ```text
-Updated at : 2026年06月02日 08:03:08 JST
-Data collection start: 2026年05月25日
+AI Coding           26h 25m     █████████████████████░░░░  84.46 %
+Human Coding        3h 23m      ███░░░░░░░░░░░░░░░░░░░░░░  10.86 %
 ```
 
-### Languages
+**📝 Line Changes (AI vs Human)**
 
 ```text
-- Java                   12h 18m             █████████░░░░░░░░░░░░░░░   36.17 %
-- Swift                  6h 7m               ████░░░░░░░░░░░░░░░░░░░░   18.00 %
-- Markdown               5h 17m              ████░░░░░░░░░░░░░░░░░░░░   15.57 %
-- YAML                   4h 3m               ███░░░░░░░░░░░░░░░░░░░░░   11.92 %
-- PHP                    2h 9m               ██░░░░░░░░░░░░░░░░░░░░░░   6.36 %
+             Additions    Deletions
+🤖 AI        +6799       -1925        (93.5% of additions)
+👨‍💻 Human     +470        -682         (6.5% of additions)
 ```
 
-### Operating Systems
+**💻 Languages**
 
 ```text
-- Mac                    27h 54m             ████████████████████░░░░   82.00 %
-- Windows                6h 7m               ████░░░░░░░░░░░░░░░░░░░░   18.00 %
+Java                9h 21m      ███████░░░░░░░░░░░░░░░░░░  29.91 %
+Markdown            6h 18m      █████░░░░░░░░░░░░░░░░░░░░  20.15 %
+YAML                4h 2m       ███░░░░░░░░░░░░░░░░░░░░░░  12.91 %
+Swift               3h 37m      ███░░░░░░░░░░░░░░░░░░░░░░  11.57 %
+PHP                 2h 9m       ██░░░░░░░░░░░░░░░░░░░░░░░  6.92 %
 ```
 
-### Activities 
+**🛠️ Editors**
 
 ```text
-- AI Coding              27h 7m              ███████████████████░░░░░   79.68 %
-- Coding                 5h 32m              ████░░░░░░░░░░░░░░░░░░░░   16.27 %
-- Writing Docs           1h 2m               █░░░░░░░░░░░░░░░░░░░░░░░   3.05 %
-- Writing Tests          0h 20m              ░░░░░░░░░░░░░░░░░░░░░░░░   0.99 %
-- Building               0h 0m               ░░░░░░░░░░░░░░░░░░░░░░░░   0.01 %
+VS Code             24h 12m     ███████████████████░░░░░░  77.38 %
+Claude Code         5h 34m      ████░░░░░░░░░░░░░░░░░░░░░  17.84 %
+Codex CLI           1h 29m      █░░░░░░░░░░░░░░░░░░░░░░░░  4.79 %
+```
+
+**🖥️ Operating Systems**
+
+```text
+Mac                 25h 9m      ████████████████████░░░░░  80.41 %
+Windows             6h 7m       █████░░░░░░░░░░░░░░░░░░░░  19.59 %
+```
+
+**⚡ Activities**
+
+```text
+AI Coding           26h 25m     █████████████████████░░░░  84.46 %
+Coding              3h 23m      ███░░░░░░░░░░░░░░░░░░░░░░  10.86 %
+Writing Docs        1h 15m      █░░░░░░░░░░░░░░░░░░░░░░░░  4.02 %
+Writing Tests       0h 12m      ░░░░░░░░░░░░░░░░░░░░░░░░░  0.66 %
+Building            0h 0m       ░░░░░░░░░░░░░░░░░░░░░░░░░  0.00 %
 ```
 
 <!--END_SECTION:waka-->
