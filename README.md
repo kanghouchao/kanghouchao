@@ -1,7 +1,8 @@
 <div align="center">
 
 <!-- Typing SVG -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Hi+%F0%9F%91%8B%2C+I'm+Kang+Houchao;Backend+Developer+%7C+Japan+%F0%9F%87%AF%F0%9F%87%B5" alt="Typing SVG" /></a>
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Hi+%F0%9F%91%8B%2C+I'm+Kang+Houchao;Living+in+Japan+%F0%9F%87%AF%F0%9F%87%B5" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -15,9 +16,9 @@
 
 ### 🧑‍💻 About Me
 
-- 🔭 Backend developer from China, currently living in **Japan**
-- 🌱 Learning **Next.js** & **PostgreSQL** → [Kizuna Project](https://github.com/kanghouchao/Kizuna)
-- 🤖 Heavy AI-assisted coding workflow — see stats below
+- 🔭 I'm from China, currently living in **Japan**
+- 🌱 I'm currently learning **AWS** and **Kubernetes**
+- 👯 Open to opportunities in **Japan**
 - ⚡ Fun fact: I love **movies** and **music**
 
 ---
@@ -33,6 +34,7 @@
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
 **Build & DevOps**
 
@@ -44,6 +46,7 @@
 
 **Data & Messaging**
 
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
@@ -62,6 +65,7 @@
 ### ⏱️ WakaTime Stats (Last 7 Days)
 
 <!--START_SECTION:waka-->
+
 **📊 Weekly Development Breakdown** · `2026年06月02日 15:41:42 JST`
 
 **🔤 AI Tokens**
