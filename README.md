@@ -65,22 +65,16 @@
 ### ⏱️ WakaTime Stats (Last 7 Days)
 
 <!--START_SECTION:waka-->
-**📊 Weekly Development Breakdown** · `2026年06月02日 16:05:23 JST`
+**📊 Weekly Development Breakdown** · `2026年06月02日 16:12:29 JST`
 
-**🤖 Agents**
+**⏱️ Total Coding Time: 29 hrs 58 mins** (daily avg: 4 hrs 16 mins)
+
+**🤖 Agents** · AI Tokens: 362.1M
 
 ```text
 Claude              5.8K lines     $34.93   █████████████████░░░░░░░░  66.8 %
 Codex               2.9K lines      $7.92   ████████░░░░░░░░░░░░░░░░░  33.2 %
 Copilot                2 lines      $0.57   ░░░░░░░░░░░░░░░░░░░░░░░░░  0.0 %
-```
-
-**🔤 AI Tokens**
-
-```text
-Input Tokens         360.7M      █████████████████████████
-Output Tokens        1.4M        ░░░░░░░░░░░░░░░░░░░░░░░░░
-Total                362.1M
 ```
 
 **💻 Languages**
