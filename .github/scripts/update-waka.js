@@ -95,13 +95,26 @@ function renderMarkdown(stats) {
   md += `**📊 Weekly Development Breakdown** · \`${formatJST(now)}\`\n\n`;
 
   // Agents (AI tools like Claude Code, Cursor, Copilot, etc.)
-  if (stats.agents && stats.agents.length > 0) {
+  const agents = stats.ai_agent_breakdown;
+  if (Array.isArray(agents) && agents.length > 0) {
     md += "**🤖 Agents**\n\n";
     md += "```text\n";
-    for (const agent of stats.agents.slice(0, 8)) {
+    for (const agent of agents.slice(0, 8)) {
       md += `${formatLine(agent.name, agent.percent, agent.hours, agent.minutes)}\n`;
     }
     md += "```\n\n";
+  } else if (agents && typeof agents === "object" && !Array.isArray(agents)) {
+    const entries = Object.entries(agents).sort((a, b) => b[1] - a[1]);
+    if (entries.length > 0) {
+      const total = entries.reduce((s, [, v]) => s + (typeof v === "number" ? v : 0), 0);
+      md += "**🤖 Agents**\n\n";
+      md += "```text\n";
+      for (const [name, value] of entries.slice(0, 8)) {
+        const pct = total > 0 ? (value / total) * 100 : 0;
+        md += `${name.padEnd(20)}${String(value).padEnd(12)}${formatBar(pct)}  ${pct.toFixed(2)} %\n`;
+      }
+      md += "```\n\n";
+    }
   }
 
   // AI Tokens
@@ -168,11 +181,11 @@ async function main() {
   const statsRes = await wakaFetch("stats/last_7_days");
   const stats = statsRes.data;
 
-  // Log available top-level keys for debugging
-  console.log("Stats keys:", Object.keys(stats).join(", "));
-  if (stats.agents) console.log("Agents found:", stats.agents.length);
-  if (stats.ai_input_tokens != null) console.log("AI input tokens:", stats.ai_input_tokens);
-  if (stats.ai_output_tokens != null) console.log("AI output tokens:", stats.ai_output_tokens);
+  // Log key fields for debugging
+  console.log("ai_agent_breakdown:", JSON.stringify(stats.ai_agent_breakdown, null, 2));
+  console.log("ai_input_tokens:", stats.ai_input_tokens);
+  console.log("ai_output_tokens:", stats.ai_output_tokens);
+  console.log("ai_agent_costs:", JSON.stringify(stats.ai_agent_costs));
 
   const mdSection = renderMarkdown(stats);
 
