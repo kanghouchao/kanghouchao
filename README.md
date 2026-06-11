@@ -111,3 +111,10 @@ Writing Docs        2h 1m       ███░░░░░░░░░░░░░
 ```
 
 <!--END_SECTION:waka-->
+
+---
+
+<p>
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=kanghouchao&show_icons=true&hide_border=true&hide_title=true" alt="GitHub stats for kanghouchao" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kanghouchao&layout=compact&hide_border=true" alt="Top languages for kanghouchao" />
+</p>
