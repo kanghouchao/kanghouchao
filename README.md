@@ -2,13 +2,14 @@
 
 <!-- Typing SVG -->
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Hi+%F0%9F%91%8B%2C+I'm+Kang+Houchao;Living+in+Japan+%F0%9F%87%AF%F0%9F%87%B5" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Hi+%F0%9F%91%8B%2C+I'm+Kang+Houchao" alt="Typing SVG" /></a>
 
 <br/>
 
 [![Gmail](https://img.shields.io/badge/Gmail-hchkang8710-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:hchkang8710@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-kanghouchao-181717?style=flat-square&logo=github)](https://github.com/kanghouchao)
-[![WakaTime](https://img.shields.io/badge/WakaTime-kanghouchao-26a65b?style=flat-square&logo=wakatime&logoColor=white)](https://wakatime.com/@kanghouchao)
+[![wakatime](https://wakatime.com/badge/user/67efb90a-9415-4600-892c-3b1699730f31.svg)](https://wakatime.com/@67efb90a-9415-4600-892c-3b1699730f31)
+![](https://komarev.com/ghpvc/?username=kanghouchao&color=70A5FD&style=flat-square&label=Profile+Views)
 
 </div>
 
@@ -65,6 +66,7 @@
 ### ⏱️ WakaTime Stats (Last 7 Days)
 
 <!--START_SECTION:waka-->
+
 **📊 Weekly Development Breakdown** · `2026年06月11日 07:52:57 JST`
 
 **⏱️ Total Coding Time: 17 hrs 6 mins** (daily avg: 2 hrs 26 mins)
@@ -110,11 +112,3 @@ Coding              1h 57m      ███░░░░░░░░░░░░░
 ```
 
 <!--END_SECTION:waka-->
-
----
-
-<div align="center">
-
-![](https://komarev.com/ghpvc/?username=kanghouchao&color=70A5FD&style=flat-square&label=Profile+Views)
-
-</div>
