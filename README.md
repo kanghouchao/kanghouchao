@@ -66,48 +66,48 @@
 ### ⏱️ WakaTime Stats (Last 7 Days)
 
 <!--START_SECTION:waka-->
-**📊 Weekly Development Breakdown** · `2026年06月13日 07:26:16 JST`
+**📊 Weekly Development Breakdown** · `2026年06月14日 07:06:51 JST`
 
-**⏱️ Total Coding Time: 23 hrs 59 mins** (daily avg: 3 hrs 25 mins)
+**⏱️ Total Coding Time: 23 hrs 24 mins** (daily avg: 3 hrs 20 mins)
 
-**🤖 Agents** · AI Tokens: 227.0M
+**🤖 Agents** · AI Tokens: 249.4M
 
 ```text
-Codex               8.9K lines    $583.53   ██████████████████░░░░░░░  74.0 %
-Claude              3.1K lines     $75.10   ███████░░░░░░░░░░░░░░░░░░  26.0 %
+Codex               8.5K lines    $614.33   ███████████████░░░░░░░░░░  58.5 %
+Claude              6.0K lines    $109.97   ██████████░░░░░░░░░░░░░░░  41.5 %
 ```
 
 **💻 Languages**
 
 ```text
-Markdown            8h 12m      ████████░░░░░░░░░░░░░░░░░  30.87 %
-Java                4h 52m      █████░░░░░░░░░░░░░░░░░░░░  18.36 %
-Other               2h 35m      ██░░░░░░░░░░░░░░░░░░░░░░░  9.75 %
-TypeScript          2h 32m      ██░░░░░░░░░░░░░░░░░░░░░░░  9.56 %
-JSON                1h 31m      █░░░░░░░░░░░░░░░░░░░░░░░░  5.73 %
+Markdown            6h 31m      ██████░░░░░░░░░░░░░░░░░░░  25.11 %
+Java                4h 52m      █████░░░░░░░░░░░░░░░░░░░░  18.77 %
+TypeScript          3h 7m       ███░░░░░░░░░░░░░░░░░░░░░░  12.02 %
+Other               2h 35m      ██░░░░░░░░░░░░░░░░░░░░░░░  9.96 %
+JSON                1h 31m      █░░░░░░░░░░░░░░░░░░░░░░░░  5.86 %
 ```
 
 **🛠️ Editors**
 
 ```text
-VS Code             24h 1m      ███████████████████████░░  90.41 %
-Claude Code         1h 20m      █░░░░░░░░░░░░░░░░░░░░░░░░  5.06 %
-Codex CLI           1h 12m      █░░░░░░░░░░░░░░░░░░░░░░░░  4.53 %
+VS Code             23h 21m     ██████████████████████░░░  89.83 %
+Claude Code         1h 26m      █░░░░░░░░░░░░░░░░░░░░░░░░  5.55 %
+Codex CLI           1h 12m      █░░░░░░░░░░░░░░░░░░░░░░░░  4.63 %
 ```
 
 **🖥️ Operating Systems**
 
 ```text
-Mac                 18h 50m     ██████████████████░░░░░░░  70.90 %
-Windows             7h 43m      ███████░░░░░░░░░░░░░░░░░░  29.10 %
+Mac                 18h 15m     ██████████████████░░░░░░░  70.25 %
+Windows             7h 43m      ███████░░░░░░░░░░░░░░░░░░  29.75 %
 ```
 
 **⚡ Activities**
 
 ```text
-AI Coding           20h 15m     ███████████████████░░░░░░  76.26 %
-Coding              3h 22m      ███░░░░░░░░░░░░░░░░░░░░░░  12.70 %
-Writing Docs        2h 56m      ███░░░░░░░░░░░░░░░░░░░░░░  11.05 %
+AI Coding           20h 26m     ████████████████████░░░░░  78.64 %
+Coding              3h 38m      ████░░░░░░░░░░░░░░░░░░░░░  14.01 %
+Writing Docs        1h 54m      ██░░░░░░░░░░░░░░░░░░░░░░░  7.36 %
 ```
 
 <!--END_SECTION:waka-->
