@@ -18,7 +18,7 @@
 ### 🧑‍💻 About Me
 
 - 🔭 I'm from China, currently living in **Japan**
-- 🌱 I'm currently learning **AWS** and **Kubernetes**
+- 🌱 I'm currently learning **[Rust](https://github.com/kanghouchao/rust-by-practice)**
 - 👯 Open to opportunities in **Japan**
 - ⚡ Fun fact: I love **movies** and **music**
 
