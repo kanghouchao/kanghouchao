@@ -34,7 +34,6 @@
 | Project | What it demonstrates | Stack |
 | --- | --- | --- |
 | [ExpertBase](https://github.com/kanghouchao/ExpertBase) | Markdown を source of truth とする、ローカルファーストのプライベート知識基盤。AI を活用した知識整理ワークフローを開発中。 | Tauri 2, Rust, Next.js, TypeScript |
-| atukane (Private) | 個人・家庭・グループへ拡張するマルチシーン家計簿。現在は Spring Boot と SwiftUI を中心に開発し、AI 自然言語入力はロードマップとして計画。 | Java, Spring Boot, SwiftUI, PostgreSQL, Redis |
 | [Kizuna](https://github.com/kanghouchao/Kizuna) | ホスト名ベースのテナント分離を備えた、マルチテナント CMS / CRM / HRM プラットフォーム。 | Java, Spring Boot, Next.js, PostgreSQL, Redis, Traefik |
 
 ## Core Skills
