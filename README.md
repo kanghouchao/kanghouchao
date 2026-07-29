@@ -42,8 +42,3 @@
 - **Architecture & DevOps:** Microservices, Docker, Kubernetes, Jenkins, Argo CD, GitHub Actions, Prometheus, Grafana
 - **Frontend & AI:** TypeScript, Next.js, React, SwiftUI, Tauri 2, Rust, AI Agents
 
-## GitHub Activity
-
-<p>
-  <img height="150" src="https://github-readme-stats-one-lake-68.vercel.app/api?username=kanghouchao&show_icons=true&hide_border=true&hide_title=true" alt="GitHub stats for Kang Houchao" />
-</p>
