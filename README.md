@@ -5,7 +5,7 @@
 <p><strong>Java Backend Engineer / Product Builder</strong></p>
 
 <p>
-  Java バックエンド開発 10年以上 ・ Spring Boot ・ Microservices ・ DevOps ・ Team Leadership
+  IT業界 10年以上 ・ Spring Boot ・ Microservices ・ DevOps
 </p>
 
 <p>
@@ -27,8 +27,6 @@
 
 現在は日本で CMS と AI Agent の開発に携わりながら、ローカルファーストや AI 支援を取り入れた個人プロダクトを開発しています。日本の自社サービス開発チームで、バックエンドと開発基盤の両面から継続的に価値を届けることを目指しています。
 
-在学中は週28時間以内の勤務が可能です。
-
 ## Featured Projects
 
 | Project | What it demonstrates | Stack |
@@ -39,6 +37,6 @@
 ## Core Skills
 
 - **Backend & Data:** Java, Spring Boot, Spring Cloud, PHP, MySQL, PostgreSQL, Redis, RabbitMQ
-- **Architecture & DevOps:** Microservices, Docker, Kubernetes, Jenkins, Argo CD, GitHub Actions, Prometheus, Grafana
-- **Frontend & AI:** TypeScript, Next.js, React, SwiftUI, Tauri 2, Rust, AI Agents
+- **Architecture & DevOps:** Docker, Kubernetes, Jenkins, Argo CD, GitHub Actions, Prometheus, Grafana
+- **Frontend & AI:** React, Claude Code, Codex
 
