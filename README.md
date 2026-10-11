@@ -29,7 +29,7 @@
 
 ## Core Skills
 
-- **Backend & Data:** Java, Spring Boot, Spring Cloud, PHP, MySQL, PostgreSQL, Redis, RabbitMQ
+- **Backend & Data:** Java, Spring Boot, Spring Cloud, MySQL, PostgreSQL, Redis, RabbitMQ
 - **Architecture & DevOps:** Docker, Kubernetes, Jenkins, Argo CD, GitHub Actions, Prometheus, Grafana
-- **Frontend & AI:** React, Claude Code, Codex
+- **Frontend:** React
 
