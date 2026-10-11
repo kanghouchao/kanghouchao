@@ -27,13 +27,6 @@
 
 現在は日本で CMS と AI Agent の開発に携わりながら、ローカルファーストや AI 支援を取り入れた個人プロダクトを開発しています。日本の自社サービス開発チームで、バックエンドと開発基盤の両面から継続的に価値を届けることを目指しています。
 
-## Featured Projects
-
-| Project | What it demonstrates | Stack |
-| --- | --- | --- |
-| [ExpertBase](https://github.com/kanghouchao/ExpertBase) | Markdown を source of truth とする、ローカルファーストのプライベート知識基盤。AI を活用した知識整理ワークフローを開発中。 | Tauri 2, Rust, Next.js, TypeScript |
-| [Kizuna](https://github.com/kanghouchao/Kizuna) | ホスト名ベースのテナント分離を備えた、マルチテナント CMS / CRM / HRM プラットフォーム。 | Java, Spring Boot, Next.js, PostgreSQL, Redis, Traefik |
-
 ## Core Skills
 
 - **Backend & Data:** Java, Spring Boot, Spring Cloud, PHP, MySQL, PostgreSQL, Redis, RabbitMQ
